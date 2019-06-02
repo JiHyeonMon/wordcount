@@ -1,0 +1,11 @@
+<body style="background-color: rgb(221, 216, 216)">
+<h1 style="color: pink; text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;" >hi, 여기서 글자를 세세요</h1>
+
+<a href="{% url 'about' %}">about ▶ 해당 페이지의 설명</a>
+<br><br>
+<form action="{% url 'result' %}">
+    <textarea cols="40" rows="20" name="fulltext"></textarea>
+    <br>
+    <input type="submit" value=" Count ! " style="background-color: grey; color: white;">
+</form>
+</body>
